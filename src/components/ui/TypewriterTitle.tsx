@@ -1,14 +1,23 @@
 "use client";
 import React from "react";
 import Typewriter from "typewriter-effect";
+import GraphemeSplitter from "grapheme-splitter";
 
 type Props = {};
+
+const stringSplitter = (string: string) => {
+  const splitter = new GraphemeSplitter();
+  return splitter.splitGraphemes(string);
+};
 
 const TypewriterTitle = (props: Props) => {
   return (
     <Typewriter
       options={{
         loop: true,
+        delay: 75,
+        
+        stringSplitter
       }}
       onInit={(typewriter) => {
         typewriter

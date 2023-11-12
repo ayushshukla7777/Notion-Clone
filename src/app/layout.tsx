@@ -24,6 +24,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+        <meta charSet="UTF-8" />
+        </head>
         <Provider>
           <body className={inter.className}>{children}</body>
         </Provider>
