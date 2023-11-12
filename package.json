@@ -1,5 +1,5 @@
 {
-  "name": "aideation-yt",
+  "name": "ai-enhanced-notion",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/backend": "^0.29.0",
-    "@clerk/nextjs": "^4.24.1",
+    "@clerk/nextjs": "^4.27.1",
     "@neondatabase/serverless": "^0.6.0",
     "@radix-ui/react-dialog": "^1.0.4",
     "@radix-ui/react-separator": "^1.0.3",
@@ -19,7 +19,6 @@
     "@tiptap/pm": "^2.1.11",
     "@tiptap/react": "^2.1.11",
     "@tiptap/starter-kit": "^2.1.11",
-    "@types/node": "20.6.4",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "ai": "^2.2.13",
@@ -48,6 +47,8 @@
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.9.0"
+
   }
 }
