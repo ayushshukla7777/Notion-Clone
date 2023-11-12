@@ -27,7 +27,8 @@ export async function POST(req: Request) {
         I am writing a piece of text in a notion text editor app.
         Help me complete my train of thought here: ##${prompt}##
         keep the tone of the text consistent with the rest of the text.
-        keep the response short and sweet.
+        keep the response short and sweet. Your output should start after the last word of the prompt.
+        Example: prompt: "my cat is " response: "cute and fluffy ..."
         `,
       },
     ],
